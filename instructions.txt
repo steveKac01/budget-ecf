@@ -1,0 +1,12 @@
+Vous devez rendre une application dont le scope fonctionnel est au plus près de ce qui est présenté en vidéo.
+Vous serez également évalué sur votre méthodologie donc fournissez un code commenté si besoin que je puisse juger
+de votre logique.
+Gêrez bien votre temps en consolidant des étapes simples et en avançant ensuite sur des éléments plus difficiles.
+
+Vous avez le droit de modifier tous les fichiers fournis à votre convenance.
+Vous avez le droit à tous les exercices et exemples que nous avons vu lors du module et bien sûr de la doc en ligne Js
+Cet exercice est cependant à réaliser seul.e 
+
+Bon courage ʕ•ᴥ•ʔ
+
+

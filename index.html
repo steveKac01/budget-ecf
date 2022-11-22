@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="./static/css/base.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<title>Oh My Budget 💎</title>
+	</head>
+
+	<body>
+		<div class="container">
+
+			<div class='left-form'>
+				<div class='form-container'>
+					<h1>Gestion Budget💎</h1>
+
+					<div class='full-input budget-field'>
+						<label for='budget'>Budget global</label>
+						<input type='text' name='budget' id='budget'></input>
+					</div>
+
+					<div class='depenses-container'>
+						<div class='full-input depense-field'>
+							<label for='depense'>Dépense</label>
+						  	<input type='text' name='depense' id='depense'></input>
+						</div>
+						<div class='full-input montant-field'>
+							<label for='montant'>Montant</label>
+						  	<input type='text' name='montant' id='montant'></input>
+						</div>
+						<button class='add-btn' ><i class="fa-solid fa-money-bill-1"></i> </button>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class='right-expenses'>
+				<div class='expenses-container'>
+					<h2> Dépenses
+						<button class="reset-btn">
+							<i class="fa fa-eraser"></i>
+						</button>
+					</h2>
+
+					<div class='expenses-list'>
+						<!-- exemple d'élement à ajouter
+						<div class='expenses-item'>
+							<span> Starbuck 18€ </span>
+						</div>
+					 -->
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="footer">
+			<div class="income">
+				<h2>Budget</h2>
+				<span>-</span>
+			</div>
+			<div class="expense">
+				<h2>Dépenses</h2>
+				<span>-</span>
+			</div>
+			<div class="balance">
+				<h2>Balance</h2>
+				<span>-</span>
+			</div>
+
+		</div>
+
+	</body>
+<script src="static/js/index.js"></script>
+</html>
